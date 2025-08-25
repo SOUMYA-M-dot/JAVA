@@ -1,10 +1,9 @@
 
-
 import java.util.Scanner;
 
-public class pattern_1{
+public class pattern_1 {
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
         /*
         ****
@@ -12,14 +11,14 @@ public class pattern_1{
         ****
         ****
          */
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of terms:");
-        int n=sc.nextInt();
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=n;j++){
+        int n = sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
                 System.out.print("* ");
-                }
-                System.out.println();
+            }
+            System.out.println();
+        }
     }
-}
 }
