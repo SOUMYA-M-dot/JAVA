@@ -8,7 +8,7 @@ class amstrong_number{
         int count=0,sum=0,rem, y=x, z=x;
         while(x>0){
             x=x/10;
-            count++;
+            count++; 
         }
         while(y>0){
             rem=y%10;
